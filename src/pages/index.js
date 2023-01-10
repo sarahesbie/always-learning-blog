@@ -5,7 +5,7 @@ import Seo from "../components/seo";
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Heart Measures">
+    <Layout pageTitle="Always Learning">
       <p>this is the home page</p>
       <StaticImage
         alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"

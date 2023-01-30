@@ -1,7 +1,12 @@
+.body {
+  margin: 0;
+}
+
 .container {
   margin: auto;
-  max-width: 500px;
+  max-width: 1070px;
   font-family: sans-serif;
+  display: flex;
 }
 
 .heading {
@@ -17,4 +22,44 @@
 }
 .nav-link-text {
   color: black;
+}
+
+/* phone */
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
+/* tablet */
+@media (min-width: 768px) {
+  .sidebar {
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
+/* tablet landscape */
+@media (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+  }
+  .sidebar {
+    width: 30%;
+  }
+
+  .content {
+    width: 60%;
+  }
+}
+/* laptop */
+@media (min-width: 1200px) {
 }
